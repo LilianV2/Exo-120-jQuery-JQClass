@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 700px;
+    height: 700px;
+    background-color: #cecece;
+    margin-left: 15rem;
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.line1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.line2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.line3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.line4 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.line5 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.circle {
+    width: 50%;
+    height: 10%;
+    border: 1px solid red;
+    border-radius: 100%;
+}
+
+.square1 {
+    width: 50%;
+    height: 10%;
+    border: 1px solid red;
+}
+
+.square2 {
+    width: 50%;
+    height: 10%;
+    border: 1px solid red;
+}
+
+.square3 {
+    width: 50%;
+    height: 10%;
+    border: 1px solid red;
+}
+
+.square4 {
+    width: 50%;
+    height: 10%;
+    border: 1px solid red;
+}
+
+.losange {
+    width: 50%;
+    height: 10%;
+    border: 1px solid red;
+    transform-origin: center;
+    transform: rotate(45deg);
+}
+
+.full {
+    background-color: red;
+}
